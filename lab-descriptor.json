@@ -1,13 +1,14 @@
+
 {
     "broadArea": {
-        "name": "",
-        "link": ""
-    },
-    "lab": "",
-    "deployLab": ,
-    "phase": ,
-    "collegeName": "",
-    "baseUrl": "",
+        "name": "Biotechnology and Biomedical Engineering",
+        "link": "https://www.vlab.co.in/broad-area-biotechnology-and-biomedical-engineering"
+                 },
+    "lab": "Biochemistry Virtual Lab I",
+    "deployLab": true,
+    "phase": 2,
+    "collegeName": "AMRT",
+    "baseUrl": "bv1-au.vlabs.ac.in",
     "introduction": "",
     "experiments": [],
     "targetAudience": {
@@ -17,6 +18,6 @@
     "objective": "",
     "courseAlignment": {
         "description": "",
-        "universities": []
+        "universities": ["(1) UG in Biotechnology/Microbiology/Bioinformatics/Biomedical Science","(2) PG in Biotechnology/Microbiology/Bioinformatics/Biomedical Science","(3) B.Tech./ B.E in Biotechnology"]
     }
 }

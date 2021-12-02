@@ -1,79 +1,86 @@
 {
-    "broadArea": {
-        "name": "Biotechnology and Biomedical Engineering",
-        "link": "https://www.vlab.co.in/broad-area-biotechnology-and-biomedical-engineering"
-                 },
-    "lab": "Biochemistry Virtual Lab I",
-    "deployLab": true,
-    "phase": 2,
-    "collegeName": "AMRT",
-    "baseUrl": "bv1-au.vlabs.ac.in",
-    "introduction": "Biochemistry is the study of the chemical processes in living organisms. It deals with the structures and functions of cellular components such as proteins, carbohydrates, lipids, nucleic acids and other biomolecules. The experiments included in Biochemistry Virtual Lab I are fundamental in nature, dealing with the identification and classification of various carbohydrates, acid-base titrations of amino acids, isolation of proteins from their natural sources, etc.",
-    "experiments": [
-                {
-                    "name": "Isoelectric Precipitation of Proteins: Casein from Milk",
-                    "short-name": "casein-from-milk",
-                    "repo": "https://github.com/virtual-labs/exp-casein-from-milk-au",
-                    "tag": "v1.0.0",
-                    "deploy": true
-                },
-                {
-                    "name": "Detection of Adulteration in Milk",
-                    "short-name": "adulteration-in-milk",
-                    "repo": "https://github.com/virtual-labs/exp-adulteration-in-milk-au",
-                    "tag": "v1.0.0",
-                    "deploy": true
-                },
-                {
-                    "name": "Estimation of Iodine Value of Fats and Oils",
-                    "short-name": "iodine-value-fats-oils",
-                    "repo": "https://github.com/virtual-labs/exp-iodine-value-fats-oils-au",
-                    "tag": "v1.0.0",
-                    "deploy": true
-                },
-                {
-                    "name": "Estimation of Blood Glucose by Glucose Oxidase Method",
-                    "short-name": "glucose-oxidase-method",
-                    "repo": "https://github.com/virtual-labs/exp-glucose-oxidase-method-au",
-                    "tag": "v1.0.0",
-                    "deploy": true
-                },
-                {
-                    "name": "Estimation of Saponification Value of Fats/Oils",
-                    "short-name": "saponification-value-fats-oils",
-                    "repo": "https://github.com/virtual-labs/exp-saponification-value-fats-oils-au",
-                    "tag": "v1.0.0",
-                    "deploy": true
-                },
-                {
-                    "name": "Qualitative Analysis of Amino Acid",
-                    "short-name": "analysis-of-amino-acid",
-                    "repo": "https://github.com/virtual-labs/exp-analysis-of-amino-acid-au",
-                    "tag": "v1.0.0",
-                    "deploy": true
-                },
-                {
-                    "name": "Qualitative Analysis of Carbohydrates",
-                    "short-name": "analysis-of-carbohydrates",
-                    "repo": "https://github.com/virtual-labs/exp-analysis-of-carbohydrates-au",
-                    "tag": "v1.0.0",
-                    "deploy": true
-                },
-                {
-                    "name": "Quantitative Estimation of Amino Acids by Ninhydrin",
-                    "short-name": "estimation-of-amino-acids",
-                    "repo": "https://github.com/virtual-labs/exp-estimation-of-amino-acids-au",
-                    "tag": "v1.0.0",
-                    "deploy": true
-                }
-        ],
-    "targetAudience": {
-        "UG": ["B.Tech./ B.E./ M.Tech. in Biotechnology"],
-        "PG": ["PhD/Research Scholars"]
+  "broadArea": {
+    "name": "Biotechnology and Biomedical Engineering",
+    "link": "https://www.vlab.co.in/broad-area-biotechnology-and-biomedical-engineering"
+  },
+  "lab": "Biochemistry Virtual Lab I",
+  "deployLab": true,
+  "phase": 2,
+  "collegeName": "AMRT",
+  "baseUrl": "biotech01.vlabs.ac.in",
+  "introduction": "Biochemistry is the study of the chemical processes in living organisms. It deals with the structures and functions of cellular components such as proteins, carbohydrates, lipids, nucleic acids and other biomolecules. The experiments included in Biochemistry Virtual Lab I are fundamental in nature, dealing with the identification and classification of various carbohydrates, acid-base titrations of amino acids, isolation of proteins from their natural sources, etc.",
+  "experiments": [
+    {
+      "name": "Isoelectric Precipitation of Proteins: Casein from Milk",
+      "short-name": "casein-from-milk",
+      "repo": "https://github.com/virtual-labs/exp-casein-from-milk-au",
+      "tag": "v1.0.0",
+      "deploy": true
     },
-    "1. objective": "To analyze qualitatively the presence of different types of carbohydrates in an unknown sample based on specific reactions.</br></br>2. To study the acidic and basic properties of amino acids by plotting its titration curve and determine pKa values to recognize the unknown amino acid</br></br>3. To estimate the blood glucose level by glucose oxidase method</br></br>4. To determine the saponification value of the oils</br></br>5. To detect various adulterants present in milk using specific biochemical tests.</br></br>6. To perform the isoelectric precipitation of casein present in milk.</br></br>7. To estimate the amount of amino acid in the unknown sample.",
-    "courseAlignment": {
-        "description": "",
-        "universities": ["(1) UG in Biotechnology/Microbiology/Bioinformatics/Biomedical Science","(2) PG in Biotechnology/Microbiology/Bioinformatics/Biomedical Science","(3) B.Tech./ B.E in Biotechnology"]
+    {
+      "name": "Detection of Adulteration in Milk",
+      "short-name": "adulteration-in-milk",
+      "repo": "https://github.com/virtual-labs/exp-adulteration-in-milk-au",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Estimation of Iodine Value of Fats and Oils",
+      "short-name": "iodine-value-fats-oils",
+      "repo": "https://github.com/virtual-labs/exp-iodine-value-fats-oils-au",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Estimation of Blood Glucose by Glucose Oxidase Method",
+      "short-name": "glucose-oxidase-method",
+      "repo": "https://github.com/virtual-labs/exp-glucose-oxidase-method-au",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Estimation of Saponification Value of Fats/Oils",
+      "short-name": "saponification-value-fats-oils",
+      "repo": "https://github.com/virtual-labs/exp-saponification-value-fats-oils-au",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Qualitative Analysis of Amino Acid",
+      "short-name": "analysis-of-amino-acid",
+      "repo": "https://github.com/virtual-labs/exp-analysis-of-amino-acid-au",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
+      "name": "Qualitative Analysis of Carbohydrates",
+      "short-name": "analysis-of-carbohydrates",
+      "repo": "https://github.com/virtual-labs/exp-analysis-of-carbohydrates-au",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Quantitative Estimation of Amino Acids by Ninhydrin",
+      "short-name": "estimation-of-amino-acids",
+      "repo": "https://github.com/virtual-labs/exp-estimation-of-amino-acids-au",
+      "tag": "v1.0.0",
+      "deploy": true
     }
+  ],
+  "targetAudience": {
+    "UG": ["B.Tech./ B.E./ M.Tech. in Biotechnology"],
+    "PG": ["PhD/Research Scholars"]
+  },
+  "objective": "To analyze qualitatively the presence of different types of carbohydrates in an unknown sample based on specific reactions.</br></br>2. To study the acidic and basic properties of amino acids by plotting its titration curve and determine pKa values to recognize the unknown amino acid</br></br>3. To estimate the blood glucose level by glucose oxidase method</br></br>4. To determine the saponification value of the oils</br></br>5. To detect various adulterants present in milk using specific biochemical tests.</br></br>6. To perform the isoelectric precipitation of casein present in milk.</br></br>7. To estimate the amount of amino acid in the unknown sample.",
+  "courseAlignment": {
+    "description": "",
+    "universities": [
+      "(1) UG in Biotechnology/Microbiology/Bioinformatics/Biomedical Science",
+      "(2) PG in Biotechnology/Microbiology/Bioinformatics/Biomedical Science",
+      "(3) B.Tech./ B.E in Biotechnology"
+    ]
+  },
+  "exp_name": "Quantitative Estimation of Amino Acids by Ninhydrin",
+  "exp_short_name": "estimation-of-amino-acids",
+  "version": "v0.3.0"
 }
